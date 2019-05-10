@@ -1,3 +1,16 @@
+.anchorjs-link {
+  transition: all .25s linear;
+}
+
+.anchorjs-link:hover {
+  color: #2500AD;
+}
+
+*:hover > .anchorjs-link {
+  transition: color .25s linear;
+  margin-left: 1.125em !important;
+}
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
