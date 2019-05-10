@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+</head>
+<body>
+{% include topnav.html %}
+<!-- Page Content -->
+<div id="main">
+<div class="container">
+    <!-- Content Row -->
+    <div class="row">
+        <div class="col-md-1">
+        </div>
+        {% if page.hide_sidebar %}
+            {% assign content_col_size = "col-md-10" %}
+        {% else %}
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                {% include sidebar.html %}
+            </div>
+            {% assign content_col_size = "col-md-7" %}
+        {% endif %}
+
+        <!-- Content Column -->
+        <div class="{{content_col_size}}" id="tg-sb-content">
+            {{content}}
+        </div>
+    <!-- /.row -->
+    </div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+</div>
+</body>
+{% include footer.html %}
+</html>
