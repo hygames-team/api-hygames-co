@@ -1,0 +1,2 @@
+/gamebox/modules   /gamebox/modules/index.json   200
+/gamebox/modules/:id  /gamebox/modules/:id/index.json   200
