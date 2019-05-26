@@ -20,6 +20,9 @@ exclude:
   - .idea/
   - .gitignore
 
+include:
+  - gamebox/**
+
 # library used for syntax highlighting
 highlighter: rouge
 
