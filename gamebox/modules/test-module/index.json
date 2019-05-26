@@ -1,7 +1,3 @@
----
-layout: none
-permalink: gamebox/modules/test-module/
----
 {
   "id": "test-module",
   "authors": [

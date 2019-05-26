@@ -22,6 +22,7 @@ exclude:
 
 include:
   - gamebox/**
+  - _redirects
 
 # library used for syntax highlighting
 highlighter: rouge
